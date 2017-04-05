@@ -26,7 +26,7 @@ public class Counter extends HttpServlet {
 
 
         //screen output
-        response.getWriter().println(String.format("Expenses for utility payments amounted to:"));
+        response.getWriter().println(String.format("Expenses 4 utility payments amounted to:"));
 
         response.getWriter().println(String.format("Near house service: " + obs + " uah"));
         String formattedDoubleEF = String.format("%.2f", +electricFinal);
